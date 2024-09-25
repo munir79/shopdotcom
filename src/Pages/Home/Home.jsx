@@ -1,5 +1,6 @@
 
 import banner from '../../assets/home/Rectangle 2 (4).png'
+import NewArrivals from './NewArrivals/NewArrivals';
 // import vector from '../../assets/home/Vector.png'
 const Home = () => {
     const data =[
@@ -64,6 +65,7 @@ const Home = () => {
             text.map(data=><div  className='flex justify-center items-center' key={data.id}> {data.text} </div>)
         }
        </div>
+       <NewArrivals></NewArrivals>
       </div>
     );
 };
